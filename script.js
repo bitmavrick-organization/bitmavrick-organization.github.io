@@ -52,24 +52,24 @@ track.innerHTML = [...logos, ...logos].map((name) => `<img class="mx-11" src="./
 
 const featuresData = [
     {
-        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="text-purple-500 size-8 mt-4"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>`,
-        title: "Lightning-fast setup",
-        description: "Launch production-ready pages in minutes with prebuilt components.",
+        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="text-purple-500 size-8 mt-4"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`,
+        title: "Android Development",
+        description: "Building modern, reactive apps with Kotlin and Jetpack Compose for superior performance.",
     },
     {
-        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="text-purple-500 size-8 mt-4"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/></svg>`,
-        title: "Pixel perfect",
-        description: "Modern Figma-driven UI that translates to exact code.",
+        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="text-purple-500 size-8 mt-4"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>`,
+        title: "Laravel & PHP",
+        description: "Crafting robust backend systems and APIs using the power of Laravel and PHP.",
     },
     {
-        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="text-purple-500 size-8 mt-4"><path d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"/><rect x="3" y="14" width="7" height="7" rx="1"/><circle cx="17.5" cy="17.5" r="3.5"/></svg>`,
-        title: "Highly customizable",
-        description: "Tailwind utility-first classes make customization trivial.",
+        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="text-purple-500 size-8 mt-4"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>`,
+        title: "Python & Django",
+        description: "Developing scalable web applications and data solutions with Django and Python.",
     },
     {
-        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="text-purple-500 size-8 mt-4"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>`,
-        title: "Accessible & responsive",
-        description: "Built with accessibility and mobile-first design in mind.",
+        icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="text-purple-500 size-8 mt-4"><path d="M20 7h-9m3.3-3L11 7l3.3 3M4 17h9m-3.3-3L13 17l-3.3 3"/></svg>`,
+        title: "Javascript Ecosystem",
+        description: "Creating interactive frontends and real-time features with modern JS frameworks.",
     },
 ];
 
@@ -79,6 +79,53 @@ features.innerHTML = featuresData.map((feature) => `<div class="p-6 rounded-xl s
             <h3 class="text-base font-medium">${feature.title}</h3>
             <p class="text-slate-400 line-clamp-2">${feature.description}</p>
         </div>`).join("");
+
+// Project Showcase Data
+const projectsData = [
+    {
+        image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1000",
+        title: "ZenFit Android App",
+        category: "Android / Kotlin / Jetpack Compose",
+        description: "A premium fitness tracking experience with reactive UI, real-time health metrics, and local data persistence."
+    },
+    {
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000",
+        title: "LaraCommerce Platform",
+        category: "Web / Laravel / PHP",
+        description: "A robust e-commerce engine featuring automated inventory, stripe integration, and a sleek admin dashboard."
+    },
+    {
+        image: "https://images.unsplash.com/photo-1551288049-bbda38a5f850?q=80&w=1000",
+        title: "PyInsights Analytics",
+        category: "Web / Django / Python",
+        description: "Real-time business intelligence dashboard with custom data visualizations and advanced reporting capabilities."
+    }
+];
+
+const projectShowcase = document.getElementById("project-showcase");
+projectShowcase.innerHTML = projectsData.map(project => `
+    <div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-[#0F172A]/40 border border-slate-200 dark:border-slate-800 transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_20px_50px_rgba(146,63,239,0.15)] max-w-sm">
+        <div class="aspect-video w-full overflow-hidden relative">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 flex items-end p-6">
+                 <p class="text-white text-sm font-medium transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">View Project Details</p>
+            </div>
+            <img src="${project.image}" alt="${project.title}" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+        </div>
+        <div class="p-8">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="px-2 py-1 rounded bg-purple-100 dark:bg-purple-900/30 text-[10px] font-bold uppercase tracking-wider text-purple-600 dark:text-purple-400 border border-purple-200 dark:border-purple-800/50">${project.category}</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">${project.title}</h3>
+            <p class="mt-3 text-sm text-slate-500 dark:text-slate-400 leading-relaxed">${project.description}</p>
+            <div class="mt-6 pt-6 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+               <button class="text-sm font-semibold text-slate-900 dark:text-slate-200 hover:text-purple-600 dark:hover:text-purple-400 transition flex items-center gap-2 group/btn">
+                 Explore Case Study
+                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transform group-hover/btn:translate-x-1 transition-transform"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+               </button>
+            </div>
+        </div>
+    </div>
+`).join("");
 
 
 const pricingData = [
